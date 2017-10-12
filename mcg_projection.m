@@ -19,14 +19,15 @@ function [seg_mask]=mcg_projection(coarse_mask,mcg_candidates)
        i=I(j);
        
        region = ismember(sp, mcg_candidates.labels{i}); 
-       region_ind=find(region==1);
+	   region_ind=find(region==1);
        region_mean_gt=mean(coarse_mask(region_ind));
        
        seg_mask(region_ind)=max(seg_mask(region_ind),region_mean_gt);
 
             
     end
-
+    
+    seg_mask=(seg_mask-min(seg_mask(:)))/(max(seg_mask(:))-min(seg_mask(:)));
     
     fprintf('Done\n');
 end
