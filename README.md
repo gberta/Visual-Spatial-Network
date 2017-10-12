@@ -3,12 +3,12 @@
 This is a code repository for the paper "Unsupervised Learning of Important Objects from First-Person Videos". Our method predicts important-objects from first-person images in an unsupervised fashion. This work has been published in the ICCV 2017 Conference.
 
 Citation:  
-@InProceedings{gberta_2017_ICCV_vsn,
-author = {Gedas Bertasius and Hyun Soo Park and Stella X. Yu and Jianbo Shi},
-title = {Unsupervised Learning of Important Objects from First-Person Videos},
-booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-month = {October},
-year = {2017}
+@InProceedings{gberta_2017_ICCV_vsn,  
+author = {Gedas Bertasius and Hyun Soo Park and Stella X. Yu and Jianbo Shi},  
+title = {Unsupervised Learning of Important Objects from First-Person Videos},  
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},  
+month = {October},  
+year = {2017}  
 }
 
 ## Installation
