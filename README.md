@@ -1,6 +1,6 @@
 # VSN Model
 
-This is a code repository for the paper "Unsupervised Learning of Important Objects from First-Person Videos". Our method predicts important-objects from first-person images in an unsupervised fashion. This work has been published in the ICCV 2017 Conference.
+This is a code repository for the paper "Unsupervised Learning of Important Objects from First-Person Videos" (https://arxiv.org/pdf/1611.05335.pdf). Our method predicts important-objects from first-person images in an unsupervised fashion. This work has been published in the ICCV 2017 Conference.
 
 Citation:  
 @InProceedings{gberta_2017_ICCV_vsn,  
